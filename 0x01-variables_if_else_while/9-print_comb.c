@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main-print all possible combinations of a single-digit numbers
+* main-print all possible combinations of single digit numbers
 * followed by a space
 * Return: 0 if successful
 */
@@ -15,7 +15,7 @@ putchar(n);
 if (n != 57)
 {
 putchar(',');
-pitchar(' ');
+putchar(' ');
 }
 }
 putchar('\n');
