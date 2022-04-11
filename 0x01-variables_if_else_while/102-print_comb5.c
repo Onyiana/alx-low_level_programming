@@ -1,8 +1,7 @@
-#include <sdtio.h>
-
+#include <stdio.h>
 /**
-* main-print all possible combinations of two two digit
-*  Return: 0 if successful
+* main-print all possible combinations of two two digits
+* Return: 0 if successful
 */
 int main(void)
 {
@@ -21,8 +20,8 @@ putchar((j / 10) + 48);
 putchar((j % 10) + 48);
 if (i != 98 || j != 99)
 {
-putchar(' ');
 putchar(',');
+putchar(' ');
 }
 }
 }
