@@ -2,7 +2,7 @@
 
 /**
 * main-print all possible combinations of two two digits
-* Rerturn: 0 if successful
+* Return: 0 if sucessful
 */
 int main(void)
 {
@@ -12,7 +12,7 @@ for (i = 0; i < 100; i++)
 {
 for (j = 0; j < 100; j++)
 {
-if (i < j)
+if {i < j)
 {
 putchar((i / 10) + 48);
 putchar((i % 10) + 48);
