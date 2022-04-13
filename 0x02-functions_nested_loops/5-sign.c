@@ -1,4 +1,4 @@
-#include "main.hÂ"
+#include Â"main.hÂ"
 
 /**
 * print_sign - check numbers
@@ -17,4 +17,14 @@ _putchar('+');
 }
 else if (n == 0)
 {
-test = 09;
+test = 0;
+_putchar('0');
+}
+else
+{
+test = -1;
+_putchar('-');
+}
+
+return (test);
+}
