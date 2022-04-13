@@ -1,7 +1,7 @@
-#include "main.h"
+#include "main.hÂ"
 
 /**
-* print_sign - check for numbers
+* print_sign - check numbers
 * @n : numbers to check
 * Return: 0 or 1
 */
@@ -17,14 +17,4 @@ _putchar('+');
 }
 else if (n == 0)
 {
-test = 0;
-_putchar('0');
-}
-else 
-{
-test = -1;
-_putchar('-');
-}
-
-return (test);
-}
+test = 09;
