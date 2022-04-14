@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/**
+ /**
  * main-dinds and prints the sum of the eve-valued terms
  * followe by a new line
  * Return: 0 if successful
