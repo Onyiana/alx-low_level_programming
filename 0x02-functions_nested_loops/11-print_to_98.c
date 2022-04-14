@@ -24,7 +24,7 @@ else if (n > 98)
 {
 while (n > 98)
 {
-rintf("%d, ", n);
+printf("%d, ", n);
 n--;
 }
 }
