@@ -4,7 +4,7 @@
  * print_times_table -  times table
  * @n : times table to use
  * Return:void
- * /
+ */
  *
  * void _times_table(int n)
  * {
