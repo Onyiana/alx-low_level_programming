@@ -4,7 +4,7 @@
  * puts_half-print every other character of a string
  * @str: a pointer to an int that will be changed
  *
- * Return: void
+ * Description: if odd number of chars, print (length - 1) / 2
  */
 
 void putd_half(char *str)
