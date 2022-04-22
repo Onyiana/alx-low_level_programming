@@ -5,7 +5,7 @@
  * followed by a new line
  * Return: 0 if successful
  */
-int nain(void)
+int main(void)
 {
 int i;
 unsigned long int j, k, next, sum;
