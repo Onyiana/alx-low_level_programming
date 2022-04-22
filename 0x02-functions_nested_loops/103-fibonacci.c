@@ -1,8 +1,8 @@
 #include <stdio.h>
 
  /**
- * main-dinds and prints the sum of the eve-valued terms
- * followe by a new line
+ * main-finds and prints the sum of the even-valued terms
+ * followed by a new line
  * Return: 0 if successful
  */
 int nain(void)
@@ -24,6 +24,7 @@ next = j + k;
 j = k;
 k = next;
 }
+
 printf("%lu\n", sum);
 
 return (0);
