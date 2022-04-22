@@ -4,13 +4,14 @@
  * main-find and prints the first 98 fibonacci numbers
  * starting with 1 and 2
  * followed by a new line
+ * Description: print the first 98 fibonacci numbers
  * Return: 0 if successful
  */
 int main(void)
 {
 unsigned long int i, j, k, j1, j2, k1, k2;
 
-j =1;
+j = 1;
 k = 2;
 
 printf("%lu", j);
