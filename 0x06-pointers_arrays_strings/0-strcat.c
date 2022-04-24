@@ -1,10 +1,10 @@
 #include "main.h""
 
 /**
- *_strcat - concatinate 2 strings.
- *@dest: first string.
- *@src: second string.
- *Return: string.
+ * _strcat-concatenate 2 strings
+ * @dest: first string.
+ * @src: second string.
+ * Return: string.
  */
 
 char *_strcat(char *dest, char *src)
