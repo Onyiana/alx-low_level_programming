@@ -21,7 +21,7 @@ for (; k < n; k++)
 dest[i] = '\0';
 i++;
 }
-}										
+}
 else
 {
 dest[i] = src[k];
