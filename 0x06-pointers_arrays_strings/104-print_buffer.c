@@ -6,7 +6,6 @@
  *@b: Buffer address.
  *@size: Number of characters to be printed.
  */
-
 void print_buffer(char *b, int size)
 {
 int j, k, l;
