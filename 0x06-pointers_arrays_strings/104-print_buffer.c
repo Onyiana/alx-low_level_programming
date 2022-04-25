@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *print_buffer - Print a buffer 10 bytes per line.
+ *print_buffer-Print a buffer 10 bytes per line.
  *@b: Buffer address.
  *@size: Number of characters to be printed.
  *Return: no return.
