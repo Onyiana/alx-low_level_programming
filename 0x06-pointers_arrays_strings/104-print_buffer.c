@@ -7,7 +7,6 @@
  *@size: Number of characters to be printed.
  *Return: no return.
  */
-
 void print_buffer(char *b, int size)
 {
 int j, k, l;
