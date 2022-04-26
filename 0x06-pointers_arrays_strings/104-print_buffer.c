@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  *print_buffer-Print a buffer 10 bytes per line.
  *@b: Buffer address.
