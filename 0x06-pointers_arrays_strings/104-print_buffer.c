@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- *print_buffer - Print a buffer 10 bytes per line.
+ *print_buffer-Print a buffer 10 bytes per line.
  *@b: Buffer address.
  *@size: Number of characters to be printed.
+ *Return: no return.
  */
-
 void print_buffer(char *b, int size)
 {
 int j, k, l;
@@ -35,7 +35,7 @@ break;
 if (*(b + l) < 32 || *(b + l) > 126)
 printf("%c", '.');
 else
-printf("%c", *(b + l))
+printf("%c", *(b + l));
 }
 printf("\n");
 }
