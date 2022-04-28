@@ -23,7 +23,7 @@ return (palind2(a + 1, L + 1));
  * On error, return -1, and errno is set appropriately.
  */
 
-int palind3(char *a, int L)
+int palind3(char *a, int l)
 {
 if (*a != *(a + L))
 return (0);
