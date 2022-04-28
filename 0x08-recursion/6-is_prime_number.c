@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * prime2 - Makes possible to evaluate from 1 to n
@@ -24,12 +24,9 @@ return (prime2(a, b + 1));
  * Return: 1 if successful.
  * On error, return -1, and errno is set appropriately.
  */
-
 int is_prime_number(int n)
 {
 if (n <= 1)
 return (0);
 return (prime2(n, 2));
 }
-~
-
