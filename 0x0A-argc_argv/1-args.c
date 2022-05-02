@@ -2,13 +2,20 @@
 #include <stdlib.h>
 
 /**
- * main - Entry point
- * @argc: count the number of parameters that goes into the main.
- * @argv: pointer of arrays of pointers that contains strings entering main.
- * Return: void
+ *main - prints number of arguments passed
+ *@argc: first parameter
+ *@argv: second parameter
+ *DESCRIPTION: prints number of arguments
+ *Return: Always (0) Success
  */
 
 int main(int argc, char **argv)
 {
-printf("Number of argument: %d\n", argc - 1);
+int i;
+for (i = 0; i < argc; i++)
+{
+argv[i] = argv[i];
+}
+printf("%d\n", i - 1);
+return (0);
 }
