@@ -10,5 +10,5 @@
 
 int main(int argc, char **argv)
 {
-printf("Number of argument: %d\n", argv - 1);
+printf("Number of argument: %d\n", argc - 1);
 }
