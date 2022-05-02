@@ -26,3 +26,4 @@ c = atoi(argv[2]); /** c is second number*/
 product = b *c;
 printf("%d\n", product);
 return (0);
+}
