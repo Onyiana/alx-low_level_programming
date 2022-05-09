@@ -1,48 +1,52 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
- *string_nconcat - concat 2 string
- *@s1: string 1
- *@s2: string 2
- *@n: integer value
- *Return: pointer points to a new allocated space else NULL
+ * _strlen - find length of a string
+ * @s: string
+ * Return: int
+ */
+
+unsigned int _strlen(char *s)
+{
+unsigned int size = 0;
+for (; s[size] != '\0'; size++)
+;
+return (size);
+}
+
+/**
+ * *string_nconcat - concatenates two strings
+ * @s1: string 1
+ * @s2: string 2
+ * @n: first bytes of s2 to be used
+ * Return: pointer or NULL
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-char *str;
-unsigned int s1_len, s2_len, i;
-
+unsigned int i, j;
+char *m;
 
 if (s1 == NULL)
-s1 = "";
+	s1 = "";
 if (s2 == NULL)
-s2 = "";
+	s2 = "";
 
-for (s1_len = 0; s1[s1_len] != '\0'; s1_len++)
-;
+if (n < _strlen(s2))
+	m = malloc(_strlen(s1) + n * sizeof(char) + 1);
+else
+	m = malloc(_strlen(s1) + _strlen(s2) + 1);
 
-for (s2_len = 0; s2[s2_len] != '\0'; s2_len++)
-;
-
-str = malloc(s1_len + s2_len + 1);
-
-
-if (n >= s2_len)
-n = s2_len;
+if (m == 0)
+	return (NULL);
 
 for (i = 0; s1[i] != '\0'; i++)
-str[i] = s1[i];
+	m[i] = s1[i];
 
-for (i = 0; i < n; i++)
-str[s1_len + i] = s2[i];
+for (j = 0; s2[j] != '\0' && j < n; i++, j++)
+	m[i] = s2[j];
 
-str[s1_len + n] = '\0';
+m[i] = '\0';
 
-if (str == NULL)
-return (NULL);
-
-return (str);
+return (m);
 }
