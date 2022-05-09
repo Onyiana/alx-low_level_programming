@@ -1,6 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  *string_nconcat - concat 2 string
  *@s1: string 1
@@ -27,7 +28,6 @@ for (s2_len = 0; s2[s2_len] != '\0'; s2_len++)
 ;
 
 str = malloc(s1_len + s2_len + 1);
-
 
 if (n >= s2_len)
 n = s2_len;
