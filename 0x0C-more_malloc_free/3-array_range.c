@@ -33,4 +33,4 @@ p[i] = j;
 if (max == min)
 p[i] = max;
 return (p);
-}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[D[D[;[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[C[C[D[D[D[D[D[D[D[D[D[D[D[D
+}
