@@ -29,6 +29,7 @@ for (s2_len = 0; s2[s2_len] != '\0'; s2_len++)
 
 str = malloc(s1_len + s2_len + 1);
 
+
 if (n >= s2_len)
 n = s2_len;
 
