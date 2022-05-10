@@ -43,7 +43,7 @@ resp *= 10;
 resp += (s[i] - 48);
 }
 
-return (sign * resp);
+return (sign *resp);
 }
 
 /**
