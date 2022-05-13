@@ -58,7 +58,7 @@ j++;
 else
 {
 coins += d;
-cents -= (d * c[j]);
+cents -= (d *c[j]);
 }
 }
 }
