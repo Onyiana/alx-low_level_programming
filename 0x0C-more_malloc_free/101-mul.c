@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
  * _puts - prints a string, followed by a new line,
  * @str: pointer to the string to print
@@ -43,7 +43,7 @@ resp *= 10;
 resp += (s[i] - 48);
 }
 
-return (sign * resp);
+return (sign *resp);
 }
 
 /**

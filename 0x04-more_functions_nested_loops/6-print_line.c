@@ -16,8 +16,8 @@ int i;
 
 for (i = 1; i <= n; i++)
 {
-_putchar('_');  
+_putchar('_');
 }
-_putchar('\n'); 
+_putchar('\n');
 }
 }
